@@ -105,3 +105,4 @@ ENV/
 input
 output
 ethalon
+.DS_Store
