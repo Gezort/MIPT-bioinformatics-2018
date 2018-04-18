@@ -106,3 +106,4 @@ input
 output
 ethalon
 .DS_Store
+*.sh
