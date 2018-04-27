@@ -1,14 +1,14 @@
 import sys
 
 def str_to_in_vertex(s):
-    v = 2 * abs(eval(s)) - 2
+    v = 2 * abs(int(s)) - 2
     if s[0] == '-':
         v += 1
     return v
 
 
 def str_to_out_vertex(s):
-    v = 2 * abs(eval(s)) - 1
+    v = 2 * abs(int(s)) - 1
     if s[0] == '-':
         v -= 1
     return v

@@ -6,7 +6,7 @@ def print_permutation(permutation):
 
 def main():
     permutation = input()[1:-1]
-    permutation = list(map(eval, permutation.split()))
+    permutation = list(map(int, permutation.split()))
     n = len(permutation)
     for k in range(n):
         for i in range(n):
